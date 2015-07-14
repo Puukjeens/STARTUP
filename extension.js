@@ -59,15 +59,15 @@
         botName: "HEAL BOTIŅŠ",
         language: "english",
         chatLink: "https://rawgit.com/Puukjeens/STARTUP/master/lang/en.json",
-        startupCap: 1, // 1-200
+        startupCap: 50, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         autowoot: true,
         autoskip: false,
         smartSkip: true,
-        cmdDeletion: true,
+        cmdDeletion: false,
         maximumAfk: 120,
-        afkRemoval: true,
+        afkRemoval: false,
         maximumDc: 60,
         bouncerPlus: true,
         blacklistEnabled: true,
@@ -76,13 +76,13 @@
         maximumLocktime: 10,
         cycleGuard: true,
         maximumCycletime: 10,
-        voteSkip: false,
-        voteSkipLimit: 10,
-        historySkip: false,
+        voteSkip: true,
+        voteSkipLimit: 5,
+        historySkip: true,
         timeGuard: true,
-        maximumSongLength: 10,
+        maximumSongLength: 7,
         autodisable: true,
-        commandCooldown: 30,
+        commandCooldown: 1,
         usercommandsEnabled: true,
         skipPosition: 3,
         skipReasons: [
